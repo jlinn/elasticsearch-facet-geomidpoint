@@ -1,5 +1,4 @@
-GeoMidpoint Facet Plugin for Elasticsearch
-==========================================
+# GeoMidpoint Facet Plugin for Elasticsearch [![Build Status](https://secure.travis-ci.org/jlinn/elasticsearch-facet-geomidpoint.png?branch=master)](http://travis-ci.org/jlinn/elasticsearch-facet-geomidpoint)
 
 An [Elasticsearch](http://www.elasticsearch.org/) plugin which calculates the geographic midpoint of the given geo_point field values in all matching documents.
 
