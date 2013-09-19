@@ -7,7 +7,7 @@
     <name>elasticsearch-facet-geomidpoint</name>
     <groupId>org.elasticsearch</groupId>
     <artifactId>elasticsearch-facet-geomidpoint</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
     <inceptionYear>2013</inceptionYear>
     <description>An Elasticsearch plugin which calculates the geographic midpoint of the given geo_point field values in all matching documents.</description>
@@ -26,7 +26,7 @@
     </scm>
 
     <properties>
-        <elasticsearch.version>0.90.3</elasticsearch.version>
+        <elasticsearch.version>0.90.5</elasticsearch.version>
         <log4j.version>1.2.16</log4j.version>
         <junit.version>4.8.2</junit.version>
         <maven-compiler-plugin.version>2.5.1</maven-compiler-plugin.version>

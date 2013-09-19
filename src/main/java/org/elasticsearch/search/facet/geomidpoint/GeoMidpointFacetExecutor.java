@@ -6,7 +6,6 @@ import org.elasticsearch.index.fielddata.GeoPointValues;
 import org.elasticsearch.index.fielddata.IndexGeoPointFieldData;
 import org.elasticsearch.search.facet.FacetExecutor;
 import org.elasticsearch.search.facet.InternalFacet;
-import org.elasticsearch.search.internal.SearchContext;
 import org.elasticsearch.index.fielddata.GeoPointValues.Iter;
 
 import java.io.IOException;
@@ -24,7 +23,7 @@ public class GeoMidpointFacetExecutor extends FacetExecutor{
     List<GeoPoint> points;
     long count;
 
-    public GeoMidpointFacetExecutor(IndexGeoPointFieldData indexFieldData, SearchContext context){
+    public GeoMidpointFacetExecutor(IndexGeoPointFieldData indexFieldData){
         this.indexFieldData = indexFieldData;
     }
 

@@ -68,6 +68,6 @@ public class GeoMidpointFacetParser extends AbstractComponent implements FacetPa
             throw new FacetPhaseExecutionException(facetName, "field [" + field + "] is not a geo point field, but a " + fieldMapper.fieldDataType().getType());
         }
         IndexGeoPointFieldData indexFieldData = context.fieldData().getForField(fieldMapper);
-        return new GeoMidpointFacetExecutor(indexFieldData, context);
+        return new GeoMidpointFacetExecutor(indexFieldData);
     }
 }

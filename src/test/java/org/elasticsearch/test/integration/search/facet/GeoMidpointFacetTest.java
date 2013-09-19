@@ -70,7 +70,7 @@ public class GeoMidpointFacetTest extends AbstractNodesTests{
                 .startObject("coordinates").field("lat", 32.749789).field("lon", -117.167650).endObject().endObject())
                 .execute().actionGet();
 
-        client().admin().indices().prepareFlush().setRefresh(true).execute().actionGet();
+        client().admin().indices().prepareFlush().execute().actionGet();
 
         client().admin().indices().prepareRefresh().execute().actionGet();
 
